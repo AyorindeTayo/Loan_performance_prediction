@@ -304,7 +304,15 @@ This section outlines the process for evaluating predictions using the saved mod
  
   - This shows our model performed very well on the test data
  
-    # Loan Repayment Prediction Summary
+    
+
+![Imgur](https://imgur.com/uOgTZjK.png)
+![Imgur](https://imgur.com/qIEqMlk.png)
+![Imgur](https://imgur.com/hGQuC21.png)
+![Imgur](https://imgur.com/JOV0kvi.png)
+![Imgur](https://imgur.com/aAHhQfy.png)
+
+## Loan Repayment Prediction Summary
 
 In this project, the goal was to predict whether a borrower would repay their loan on time or pay late. Below is a comparison between the actual loan repayment outcomes and the predictions made by the machine learning model.
 
@@ -321,13 +329,6 @@ In this project, the goal was to predict whether a borrower would repay their lo
 - It under-predicted the number of people who would pay on time by the same margin.
   
 This suggests that while the model is generally accurate, it is slightly conservative in predicting late payments.
-
-
-![Imgur](https://imgur.com/uOgTZjK.png)
-![Imgur](https://imgur.com/qIEqMlk.png)
-![Imgur](https://imgur.com/hGQuC21.png)
-![Imgur](https://imgur.com/JOV0kvi.png)
-![Imgur](https://imgur.com/aAHhQfy.png)
 
 
 # Conclusion

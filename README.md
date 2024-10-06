@@ -278,13 +278,21 @@ This section outlines the process for evaluating predictions using the saved mod
 - **Classification Report**: Provides precision, recall, and F1-score for each class.
 - **AUC Score**: The area under the ROC curve, indicating the model's ability to distinguish between classes.
   
-## Predicted Outcome
 
+## Predicted Outcome and Loan Repayment Prediction Summary
+
+In this project, the goal was to predict whether a borrower would repay their loan on time or pay late. Below is a comparison between the actual loan repayment outcomes and the predictions made by the machine learning model.
 - **Actual Percentage of People who Paid Late**: 8.60%
 - **Actual Percentage of People who Paid on Time**: 91.40%
   
 - **Predicted Percentage of People who Paid Late**: 11.35%
 - **Predicted Percentage of People who Paid on Time**: 88.65%
+
+## Insights:
+- The model over-predicted the number of people who would pay late by about 2.75%. 
+- It under-predicted the number of people who would pay on time by the same margin.
+  
+This suggests that while the model is generally accurate, it is slightly conservative in predicting late payments.
 
 ## Explanation of the Confusion Matrix Plot
 
@@ -315,20 +323,6 @@ This section outlines the process for evaluating predictions using the saved mod
 ## Loan Repayment Prediction Summary
 
 In this project, the goal was to predict whether a borrower would repay their loan on time or pay late. Below is a comparison between the actual loan repayment outcomes and the predictions made by the machine learning model.
-
-## Actual vs Predicted Loan Repayment
-
-- **Actual Percentage of People who Paid Late:** 8.60%
-- **Actual Percentage of People who Paid on Time:** 91.40%
-
-- **Predicted Percentage of People who Paid Late:** 11.35%
-- **Predicted Percentage of People who Paid on Time:** 88.65%
-
-## Insights:
-- The model over-predicted the number of people who would pay late by about 2.75%. 
-- It under-predicted the number of people who would pay on time by the same margin.
-  
-This suggests that while the model is generally accurate, it is slightly conservative in predicting late payments.
 
 
 # Conclusion
